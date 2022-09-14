@@ -1,0 +1,343 @@
+.icon-flag {
+  width: 34px;
+  height: 24px;
+  background-image: url(https://minfin.com.ua/currency/converter/68a7698693464be9a48f856be4468eea.jpg);
+}
+.icon-AED {
+  background-position: -68px -96px;
+}
+.icon-AMD {
+  background-position: -136px -144px;
+}
+.icon-ARS {
+  background-position: -170px -48px;
+}
+.icon-ATS {
+  background-position: -170px -120px;
+}
+.icon-AUD {
+  background-position: -170px -144px;
+}
+.icon-AZM {
+  background-position: 0 -168px;
+}
+.icon-AZN {
+  background-position: -34px -168px;
+}
+.icon-BCN-c {
+  background-position: -204px -24px;
+}
+.icon-BEF {
+  background-position: -204px -48px;
+}
+.icon-BGL {
+  background-position: -204px -168px;
+}
+.icon-BGN {
+  background-position: 0 -192px;
+}
+.icon-BRL {
+  background-position: -102px -192px;
+}
+.icon-BWP {
+  background-position: -238px -120px;
+}
+.icon-BYB {
+  background-position: -238px -144px;
+}
+.icon-BYN {
+  background-position: -238px -168px;
+}
+.icon-BYR {
+  background-position: -238px -192px;
+}
+.icon-CAD {
+  background-position: -68px -216px;
+}
+.icon-CHF {
+  background-position: -136px -216px;
+}
+.icon-CLP {
+  background-position: -170px -216px;
+}
+.icon-CMM-c {
+  background-position: -204px -216px;
+}
+.icon-CNY {
+  background-position: -238px -216px;
+}
+.icon-CYP {
+  background-position: -170px -240px;
+}
+.icon-CZK {
+  background-position: -204px -240px;
+}
+.icon-DEM {
+  background-position: -272px -216px;
+}
+.icon-DKK {
+  background-position: -34px -264px;
+}
+.icon-DZD {
+  background-position: -238px -264px;
+}
+.icon-ECS {
+  background-position: -272px -264px;
+}
+.icon-EEK {
+  background-position: -306px 0;
+}
+.icon-EGP {
+  background-position: -306px -24px;
+}
+.icon-ESP {
+  background-position: -306px -264px;
+}
+.icon-EUR {
+  background-position: -136px -288px;
+}
+.icon-FIM {
+  background-position: -68px -312px;
+}
+.icon-FJD {
+  background-position: -102px -312px;
+}
+.icon-FRF {
+  background-position: -170px -312px;
+}
+.icon-GBP {
+  background-position: -306px -312px;
+}
+.icon-GEL {
+  background-position: -340px 0;
+}
+.icon-GRD {
+  background-position: -340px -96px;
+}
+.icon-HKD {
+  background-position: -340px -240px;
+}
+.icon-HRK {
+  background-position: -340px -312px;
+}
+.icon-HUF {
+  background-position: -34px -336px;
+}
+.icon-IDR {
+  background-position: -136px -336px;
+}
+.icon-IEP {
+  background-position: -170px -336px;
+}
+.icon-ILS {
+  background-position: -238px -336px;
+}
+.icon-INR {
+  background-position: -306px -336px;
+}
+.icon-IQD {
+  background-position: -374px 0;
+}
+.icon-IRR {
+  background-position: -374px -24px;
+}
+.icon-ISK {
+  background-position: -374px -48px;
+}
+.icon-ITL {
+  background-position: -374px -72px;
+}
+.icon-JOD {
+  background-position: -374px -96px;
+}
+.icon-JPY {
+  background-position: -374px -120px;
+}
+.icon-KES {
+  background-position: -374px -168px;
+}
+.icon-KGS {
+  background-position: -374px -192px;
+}
+.icon-KPW {
+  background-position: -374px -264px;
+}
+.icon-KRW {
+  background-position: -374px -288px;
+}
+.icon-KWD {
+  background-position: -374px -312px;
+}
+.icon-KYD {
+  background-position: -374px -336px;
+}
+.icon-KZT {
+  background-position: 0 -360px;
+}
+.icon-LBP {
+  background-position: -102px -360px;
+}
+.icon-LKR {
+  background-position: -204px -360px;
+}
+.icon-LTL {
+  background-position: -340px -360px;
+}
+.icon-LUF {
+  background-position: -374px -360px;
+}
+.icon-LVL {
+  background-position: 0 -384px;
+}
+.icon-LYD {
+  background-position: -34px -384px;
+}
+.icon-MAD {
+  background-position: -68px -384px;
+}
+.icon-MDL {
+  background-position: -204px -384px;
+}
+.icon-MNT {
+  background-position: -306px -384px;
+}
+.icon-MTL {
+  background-position: -374px -384px;
+}
+.icon-MUR {
+  background-position: -408px 0;
+}
+.icon-MXN {
+  background-position: -408px -48px;
+}
+.icon-MYR {
+  background-position: -408px -72px;
+}
+.icon-NLG {
+  background-position: -408px -216px;
+}
+.icon-NOK {
+  background-position: -408px -240px;
+}
+.icon-NZD {
+  background-position: -408px -336px;
+}
+.icon-OMR {
+  background-position: -408px -384px;
+}
+.icon-PEN {
+  background-position: -204px -408px;
+}
+.icon-PHP {
+  background-position: -238px -408px;
+}
+.icon-PKR {
+  background-position: -272px -408px;
+}
+.icon-PLN {
+  background-position: -306px -408px;
+}
+.icon-PTE {
+  background-position: -340px -408px;
+}
+.icon-QAR {
+  background-position: -374px -408px;
+}
+.icon-ROL {
+  background-position: -442px -120px;
+}
+.icon-RON {
+  background-position: -442px -144px;
+}
+.icon-RUB {
+  background-position: -442px -168px;
+}
+.icon-RUR {
+  background-position: -442px -192px;
+}
+.icon-SAR {
+  background-position: -442px -264px;
+}
+.icon-SCR {
+  background-position: -442px -312px;
+}
+.icon-SEK {
+  background-position: -442px -360px;
+}
+.icon-SGD {
+  background-position: -442px -384px;
+}
+.icon-SIT {
+  background-position: -442px -408px;
+}
+.icon-SKK {
+  background-position: 0 -432px;
+}
+.icon-SYP {
+  background-position: -204px -432px;
+}
+.icon-SZL {
+  background-position: -238px -432px;
+}
+.icon-THB {
+  background-position: -272px -432px;
+}
+.icon-TJR {
+  background-position: -374px -432px;
+}
+.icon-TJS {
+  background-position: -408px -432px;
+}
+.icon-TMM {
+  background-position: -442px -432px;
+}
+.icon-TMT {
+  background-position: -476px 0;
+}
+.icon-TND {
+  background-position: -476px -24px;
+}
+.icon-TRL {
+  background-position: -476px -48px;
+}
+.icon-TRY {
+  background-position: -476px -96px;
+}
+.icon-TWD {
+  background-position: -476px -144px;
+}
+.icon-UAH {
+  background-position: -476px -168px;
+}
+.icon-USD {
+  background-position: -476px -192px;
+}
+.icon-UZS {
+  background-position: -476px -264px;
+}
+.icon-VEB {
+  background-position: -476px -288px;
+}
+.icon-VND {
+  background-position: -476px -360px;
+}
+.icon-VUV {
+  background-position: -476px -408px;
+}
+.icon-XDR {
+  background-position: -170px -456px;
+}
+.icon-XEU {
+  background-position: -272px -456px;
+}
+.icon-XOF {
+  background-position: -476px -456px;
+}
+.icon-ZAR {
+  background-position: -238px -480px;
+}
+.icon-ZWD {
+  background-position: -374px -480px;
+}
+
+/*# sourceMappingURL=Flags.css.map */
