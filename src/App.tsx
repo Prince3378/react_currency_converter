@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import 'bulma/css/bulma.css';
 import { Converter } from './components/Converter';
 
 import { Header } from './components/Header/Header';
