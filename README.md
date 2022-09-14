@@ -1,4 +1,4 @@
-# react_currency_converter"
+# React currency converter
 
 [DEMO LINK](https://github.com/Prince3378/react_currency_converter.git)
 
