@@ -1,7 +1,9 @@
 import React from 'react';
+
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import { Converter } from './components/Converter/Converter';
+import { Converter } from './components/Converter';
+
 import { Header } from './components/Header/Header';
 import { ListRate } from './components/ListRate/ListRate';
 import { Navigation } from './components/Navigation/Navigation';

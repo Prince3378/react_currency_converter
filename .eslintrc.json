@@ -36,11 +36,12 @@
         "@typescript-eslint/no-use-before-define": ["error"],
         "react/jsx-filename-extension": [ "warn", {"extensions": [".tsx"]} ],
         "import/extensions": [
-          "error",
+          "off",
           "ignorePackages",
           {
-            "ts": "never",
-            "tsx": "never"
+            "ts": "ignorePackages",
+            "tsx": "ignorePackages",
+            "js": "ignorePackages"
           }
         ],
         "@typescript-eslint/explicit-function-return-type": [
@@ -52,8 +53,9 @@
         "max-len": ["warn", { "code": 80 }]
       },
       "settings": {
-        "import/resolver": {
-          "typescript": {}
+        "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
+        "import/parsers": {
+          "@typescript-eslint/parser": [".ts", ".tsx"]
         }
       }
 }
