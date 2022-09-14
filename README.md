@@ -1,4 +1,4 @@
-echo "# react_currency_converter"
+# react_currency_converter"
 
 [DEMO LINK](https://github.com/Prince3378/react_currency_converter.git)
 
