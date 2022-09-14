@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useGetCurrencyQuery } from '../../../api/GeneralApi';
 
 export const ConverterCalc: React.FC = () => {
-  const {data: currency = []} = useGetCurrencyQuery();
+  const { data: currency = [] } = useGetCurrencyQuery();
   const [flagEnter, setFlagEnter] = useState<string>('UAH');
   const [flagExit, setFlagExit] = useState<string>('UAH');
   const [giveRate, setGiveRate] = useState<number>(1);
@@ -12,7 +12,9 @@ export const ConverterCalc: React.FC = () => {
 
   const enterInput = (e: React.ChangeEvent<HTMLInputElement>): void => {
     setEnter(e.target.value);
+
     const result = (+e.target.value * (giveRate / reciveRate)).toFixed(2);
+
     setExit(result);
   };
 
@@ -20,17 +22,21 @@ export const ConverterCalc: React.FC = () => {
     setFlagEnter(e.target.value);
 
     const rate = currency.find(el => el.cc === e.target.value)?.rate;
-    
+
     const currentRate = rate ? +rate : 1;
+
     setGiveRate(currentRate);
 
     const exitValue = (+enter * (currentRate / reciveRate)).toFixed(2);
+
     setExit(exitValue);
   };
 
   const exitInput = (e: React.ChangeEvent<HTMLInputElement>): void => {
     setExit(e.target.value);
+
     const result = (+e.target.value * (reciveRate / giveRate)).toFixed(2);
+
     setEnter(result);
   };
 
@@ -38,11 +44,13 @@ export const ConverterCalc: React.FC = () => {
     setFlagExit(e.target.value);
 
     const rate = currency.find(el => el.cc === e.target.value)?.rate;
-    
+
     const currentRate = rate ? +rate : 1;
+
     setReciveRate(currentRate);
 
     const enterValue = (+enter * (giveRate / currentRate)).toFixed(2);
+
     setExit(enterValue);
   };
 
@@ -55,8 +63,8 @@ export const ConverterCalc: React.FC = () => {
             <div className="control has-icons-left converter-input">
               <div className="select is-info">
                 <select
-                  onChange={(event) => {
-                    enterRate(event);
+                  onChange={(e) => {
+                    enterRate(e);
                   }}
                 >
                   <option>UAH</option>
@@ -78,11 +86,11 @@ export const ConverterCalc: React.FC = () => {
                 value={enter}
                 min="1"
                 placeholder="Введіть кількість"
-                onChange={(event) => enterInput(event)}
+                onChange={(e) => enterInput(e)}
               />
             </div>
           </div>
-  
+
         </form>
       </div>
       <div className="column">
@@ -92,7 +100,7 @@ export const ConverterCalc: React.FC = () => {
             <div className="control has-icons-left converter-input">
               <div className="select is-info">
                 <select
-                  onChange={(event) => exitRate(event)}
+                  onChange={(e) => exitRate(e)}
                 >
                   <option>UAH</option>
                   {currency.map(el => (
@@ -111,7 +119,7 @@ export const ConverterCalc: React.FC = () => {
                 className="input"
                 type="number"
                 value={exit}
-                onChange={(event) => exitInput(event)}
+                onChange={(e) => exitInput(e)}
                 min="1"
                 placeholder="Введіть кількість"
               />

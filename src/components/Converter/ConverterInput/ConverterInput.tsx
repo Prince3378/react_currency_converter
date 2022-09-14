@@ -3,7 +3,7 @@ import { useGetCurrencyQuery } from '../../../api/GeneralApi';
 
 export const ConverterInput: React.FC = () => {
   const [inputText, setInputText] = useState('');
-  const {data: currency = []} = useGetCurrencyQuery();
+  const { data: currency = [] } = useGetCurrencyQuery();
   const [result, setResult] = useState('');
 
   const calculate = (inpText: string): void => {
@@ -19,8 +19,9 @@ export const ConverterInput: React.FC = () => {
     const enterRate = enterCurs ? +enterCurs : 1;
     const exitRate = exitCurs ? +exitCurs : 1;
 
-    const result = (amount * (enterRate / exitRate)).toFixed(2);
-    setResult(result);
+    const res = (amount * (enterRate / exitRate)).toFixed(2);
+
+    setResult(res);
     setInputText('');
   };
 
@@ -29,15 +30,15 @@ export const ConverterInput: React.FC = () => {
       <h1>Введіть кількість, та бажані валюти для обрахунку
         <p className="has-text-grey-light">(Приклад: 1 USD in UAH)</p>
       </h1>
-      
+
       <input
         className="input converter-input"
         type="text"
         value={inputText}
         placeholder="Приклад: 1 USD in UAH"
-        onChange={(event) => {
-          event.preventDefault();
-          setInputText(event.target.value);
+        onChange={(e) => {
+          e.preventDefault();
+          setInputText(e.target.value);
         }}
       >
       </input>

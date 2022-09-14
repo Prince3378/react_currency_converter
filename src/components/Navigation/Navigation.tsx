@@ -9,11 +9,11 @@ export const Navigation: React.FC = () => {
   return (
     <div className="tabs is-boxed">
       <ul>
-        <li className={classNames('', {'is-active': active})}>
+        <li className={classNames('', { 'is-active': active })}>
           <Link to={'/'} onClick={() => setActive(true)} >
             <span className="icon is-small">
               <i
-                className="fa-solid fa-calculator" 
+                className="fa-solid fa-calculator"
                 aria-hidden="true"
               >
               </i>
@@ -21,7 +21,7 @@ export const Navigation: React.FC = () => {
             <span>Converter</span>
           </Link>
         </li>
-        <li className={classNames('', {'is-active': !active})}>
+        <li className={classNames('', { 'is-active': !active })}>
           <Link to={'/exchange-rate'} onClick={() => setActive(false)}>
             <span className="icon is-small">
               <i

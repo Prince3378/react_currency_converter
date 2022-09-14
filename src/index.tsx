@@ -4,7 +4,6 @@ import { HashRouter as Router } from 'react-router-dom';
 import { api } from './api/GeneralApi';
 import { App } from './App';
 
-
 ReactDOM.render(
   <ApiProvider api={api}>
     <Router>

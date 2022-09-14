@@ -5,17 +5,20 @@ import { useGetCurrencyQuery } from '../../api/GeneralApi';
 import '../ListRate/Flags.css';
 
 export const ListRate: React.FC = () => {
-  const {data: currency = [], isLoading} = useGetCurrencyQuery();
+  const { data: currency = [], isLoading } = useGetCurrencyQuery();
 
   const [selectedCurr, setSelectedCurr] = useState<string>('UAH');
   const [giveRate, setGiveRate] = useState<number>(1);
 
   const selectRate = (e: React.ChangeEvent<HTMLSelectElement>): void => {
     setSelectedCurr(e.target.value);
+
     if (e.target.value === 'UAH') {
       setGiveRate(1);
     }
+
     const curs = currency.find(el => el.cc === e.target.value)?.rate;
+
     if (curs) {
       setGiveRate(+curs);
     }
@@ -28,9 +31,9 @@ export const ListRate: React.FC = () => {
   return (
     <>
       <div className="control has-icons-left">
-        <div className={classNames('select', {'is-loading': isLoading})} >
+        <div className={classNames('select', { 'is-loading': isLoading })} >
           <select
-            onChange={(event) => selectRate(event)}>
+            onChange={(e) => selectRate(e)}>
             <option>UAH</option>
             {currency.map(el => (
               <option key={el.r030}>

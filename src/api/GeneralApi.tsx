@@ -15,8 +15,8 @@ export const api = createApi({
     getCurrency: builder.query<CurrencyType[], void>({
       query: () => '/exchange?json',
       providesTags: ['currency'],
-    })
-  })
+    }),
+  }),
 });
 
 export const {
