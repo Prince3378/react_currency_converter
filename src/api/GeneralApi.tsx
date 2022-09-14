@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-import { CurrencyType } from '../types';
+import { CurrencyType } from '../types/types';
 
 const BASE_URL = 'https://bank.gov.ua/NBUStatService/v1/statdirectory';
 
